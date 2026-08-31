@@ -15,8 +15,6 @@
 .deploy-state
 
 # Environment and secrets
-.env
-.env.*
 !.env.example
 *.key
 *.pem
@@ -31,8 +29,8 @@ ehthumbs.db
 Thumbs.db
 
 # IDE / Editor
+temp_auto_push.bat
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -65,3 +63,7 @@ tarpaulin-report.html
 test_snapshots/
 **/test_snapshots/
 .coverage
+.gitignore
+branch_structure.json
+config.bat
+node_modules
